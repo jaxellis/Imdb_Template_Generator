@@ -1,11 +1,6 @@
 # Imdb Template Generator
 Generates a BBCode Template based on information grabbed from IMDB through the OMDB API
 
-
-![](https://i.imgur.com/Vvle3jN.png)
-<br />
-*Userscript*
-
 ## Developer Notes:
 Please note that not all Forums use the same BBCode's as others so be sure to change Sizes to your liking. I used [This Site](https://infinite-story.com/tools/bbcode.php) to test the BBCode used in this.
 
@@ -19,9 +14,25 @@ Grab your Free OMDB API key here: [omdbapi.com](https://www.omdbapi.com/apikey.a
 # How To Use
 
 ### 1.
-*Userscript*: First you'll want to navigate to a Movie/Show on the IMDB site. The interface will show up below the Plot, at this point you should input your OMDB API key and click the "Save Key" button. You will only have to do this once.
-<br />
-*Ex: https://www.imdb.com/title/tt8503618/*
+*Userscript*: First you'll want to navigate to a Movie/Show on the IMDB site. The interface will show up below the Plot, at this point you should input your OMDB API key and click the "Save Key" button. You will only have to do this once. <br />
+Ex: `https://www.imdb.com/title/tt8503618/`
+
+*Python*: First enter your Activated Omdb Api Key, Then enter the Imdb link or TT Id you wish to make a template for.<br />
+Ex: `https://www.imdb.com/title/tt8503618/` or `tt8503618`
 
 ### 2.
-*Userscript*: A button will now appear that says "Generate Template". Once this button is pressed it will gather the necessary information and convert it to the BBCode Template. 
+*Userscript*: A button will now appear that says "Generate Template". Once this button is pressed it will gather the necessary information and convert it to the BBCode Template. You will receive a Success message below and the BBCode will be in your Clipboard. Paste it where you want!
+
+*Python*: Press "Generate Template" and the BBCode will be shown below. Copy it's entirety and paste where you want!
+
+
+
+## Screenshots
+
+![](https://i.imgur.com/Vvle3jN.png)
+<br />
+*Userscript .js*
+
+![](https://i.imgur.com/hk6ZXRn.png)
+<br />
+*Python .pyw*
